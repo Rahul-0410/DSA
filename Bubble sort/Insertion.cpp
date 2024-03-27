@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 //  insertion sort
-
+// O(n^2)
 void insert(int arr [],int n){
 	int j;
-	for(int i=0;i<n;i++){
+	for(int i=1;i<n;i++){
 		int temp=arr[i];
 		for(j=i-1;i>=0;j--){
 			if(arr[j]>temp){
